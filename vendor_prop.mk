@@ -168,6 +168,7 @@ vendor.video.disable.ubwc=1
 
 # Perf
 PRODUCT_PROPERTY_OVERRIDES += \
+ro.sys.fw.dex2oat_thread_count=8 \
 ro.vendor.qti.sys.fw.bservice_enable=true \
 ro.vendor.perf.scroll_opt=true \
 ro.vendor.perf.scroll_opt.heavy_app=true
