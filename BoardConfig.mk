@@ -185,6 +185,7 @@ TARGET_PER_MGR_ENABLED := true
 # Power
 TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/enable_dt2w"
 TARGET_PROVIDES_POWERHAL := true
+TARGET_RPM_SYSTEM_STAT := /d/rpm_system_stats
 
 # Qualcomm
 BOARD_USES_QCOM_HARDWARE := true
