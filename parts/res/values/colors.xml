@@ -19,3 +19,7 @@
     <color name="switchbar_switch_track_tint">#BFFFFFFF</color>
     <color name="switchbar_switch_thumb_tint">@android:color/white</color>
 </resources>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 08fd6f03 (msm8953-common: parts: Fix dark theme issues)
