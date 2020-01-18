@@ -18,3 +18,7 @@
     <color name="switchbar_switch_track_tint">#82000000</color>
     <color name="switchbar_switch_thumb_tint">@android:color/black</color>
 </resources>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 08fd6f03 (msm8953-common: parts: Fix dark theme issues)
