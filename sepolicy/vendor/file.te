@@ -33,6 +33,9 @@ type sysfs_sgain, sysfs_type, fs_type;
 type sysfs_torch, sysfs_type, fs_type;
 type kcal_dev, sysfs_type, fs_type;
 
+# fps
+type sysfs_fps, sysfs_type, fs_type;
+
 # Insmod
 type sysfs_msm_boot, fs_type, sysfs_type;
 type debugfs_ipc, fs_type, debugfs_type;
