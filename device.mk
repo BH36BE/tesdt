@@ -305,6 +305,8 @@ PRODUCT_PACKAGES += \
     init.qcom.rc \
     init.qcom.sh \
     init.qcom.usb.rc \
+    init.spectrum.rc \
+    init.spectrum.sh \
     init.target.rc \
     ueventd.qcom.rc
 
