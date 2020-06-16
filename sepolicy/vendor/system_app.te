@@ -6,3 +6,7 @@ r_dir_file(system_app sysfs_zram)
 
 # baterry Health
 r_dir_file(system_app, sysfs_battery_supply)
+
+# spectrum
+allow system_app spectrum_prop:property_service set;
+get_prop(system_app, spectrum_prop);
