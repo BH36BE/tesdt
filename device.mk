@@ -401,3 +401,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     WfdCommon
 
+# Device-specific Settings
+PRODUCT_PACKAGES += \
+    XiaomiParts
