@@ -172,6 +172,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.ir@1.0-service.xiaomi_mido
 
+# Dex
+PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := verify
+
 $(call inherit-product, $(LOCAL_PATH)/qcom-caf/display/display-commonsys-intf/config/display-interfaces-product.mk)
 $(call inherit-product, $(LOCAL_PATH)/qcom-caf/display/display-commonsys-intf/config/display-product-system.mk)
 
