@@ -12,3 +12,6 @@ allow qti_init_shell self:socket create;
 
 # Postboot
 allow qti_init_shell sysfs:file { write setattr };
+
+allow qti_init_shell proc_sysctl_autogroup:file w_file_perms;
+allow qti_init_shell proc_sysctl_schedboost:file w_file_perms;
