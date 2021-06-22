@@ -166,6 +166,11 @@ ro.ril.disable.power.collapse=0 \
 power.saving.mode=1 \
 pm.sleep_mode=1
 
+# Iorap
+PRODUCT_PROPERTY_OVERRIDES += \
+iorapd.perfetto.enable=true \
+iorapd.readahead.enable=true
+
 # Qualcomm
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.vendor.qti.va_aosp.support=1 \
