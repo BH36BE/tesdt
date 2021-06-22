@@ -139,7 +139,9 @@ vendor.video.disable.ubwc=1
 # Perf
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.vendor.extension_library=libqti-perfd-client.so \
-ro.vendor.qti.sys.fw.bservice_enable=true
+ro.vendor.qti.sys.fw.bservice_enable=true \
+ro.vendor.perf.scroll_opt=true \
+ro.vendor.perf.scroll_opt.heavy_app=true
 
 # Netmgrd
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -158,6 +160,11 @@ persist.vendor.radio.nitz_sons_0="" \
 persist.vendor.radio.nitz_sons_1="" \
 persist.vendor.radio.nitz_sons_2="" \
 persist.vendor.radio.nitz_sons_3=""
+
+# Iorap
+PRODUCT_PROPERTY_OVERRIDES += \
+iorapd.perfetto.enable=true \
+iorapd.readahead.enable=true
 
 # Qualcomm
 PRODUCT_PROPERTY_OVERRIDES += \
