@@ -297,6 +297,7 @@ PRODUCT_PACKAGES += \
 # OMX
 PRODUCT_PACKAGES += \
     libc2dcolorconvert \
+    libextmedia_jni \
     libmm-omxcore \
     libOmxAacEnc \
     libOmxAmrEnc \
@@ -307,6 +308,7 @@ PRODUCT_PACKAGES += \
     libOmxSwVencHevc \
     libOmxVdec \
     libOmxVenc \
+    libOmxVidcCommon \
     libstagefrighthw \
     libstagefright_enc_common
 
