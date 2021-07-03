@@ -452,3 +452,7 @@ PRODUCT_BOOT_JARS += \
 # SimpleDeviceConfigOverlay
 PRODUCT_PACKAGES += \
     SimpleDeviceConfigOverlay
+
+PRODUCT_DEXPREOPT_SPEED_APPS += \
+    Settings \
+    SystemUI
