@@ -254,6 +254,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/msm8953-snd-card-mtp_Button_Jack.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/msm8953-snd-card-mtp_Button_Jack.kl \
     $(LOCAL_PATH)/keylayout/uinput-fpc.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/uinput-fpc.kl
 
+# Insmod files
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/init.insmod.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/init.insmod.cfg
+
 # IPA Manager
 PRODUCT_PACKAGES += \
     ipacm \
@@ -359,7 +363,8 @@ PRODUCT_PACKAGES += \
     init.soundcontrol.rc \
     init.target.rc \
     init.veth_ipa_config.sh \
-    ueventd.qcom.rc
+    ueventd.qcom.rc \
+    init.insmod.sh \
 
 # RenderScript HAL
 PRODUCT_PACKAGES += \
