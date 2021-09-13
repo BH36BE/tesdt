@@ -139,6 +139,8 @@ vendor.video.disable.ubwc=1
 # Perf
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.vendor.qti.sys.fw.bservice_enable=true \
+ro.vendor.perf.scroll_opt=true \
+ro.vendor.perf.scroll_opt.heavy_app=true
 
 # Netmgrd
 PRODUCT_PROPERTY_OVERRIDES += \
