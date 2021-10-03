@@ -6,3 +6,5 @@ r_dir_file(system_app sysfs_zram)
 
 # baterry Health
 r_dir_file(system_app, sysfs_battery_supply)
+
+allow system_app hal_power_default:binder { call };
