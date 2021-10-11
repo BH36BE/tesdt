@@ -218,3 +218,25 @@ on boot
 # HW Buttons
     chown root system /sys/devices/soc/78b7000.i2c/i2c-3/3-0038/disable_keys
     chmod 0660 /sys/devices/soc/78b7000.i2c/i2c-3/3-0038/disable_keys
+
+# Logcat Services
+on fs
+    rm /cache/boot_lc_main.txt
+    rm /cache/boot_dmesg.txt
+
+    start boot_lc_main
+    start boot_dmesg
+
+service boot_lc_main /system/bin/logcat -f /cache/boot_lc_main.txt
+    class main
+    user root
+    group root system
+    disabled
+    oneshot
+
+service boot_dmesg /system/bin/sh -c "dmesg -w > /cache/boot_dmesg.txt"
+    class main
+    user root
+    group root system
+    disabled
+    oneshot
