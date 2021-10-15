@@ -396,6 +396,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.renderscript@1.0-impl
 
+# Shims
+PRODUCT_PACKAGES += \
+    lib-imsvt
+
 # Radio
 PRODUCT_PACKAGES += \
     android.hardware.radio@1.6 \
