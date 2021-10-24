@@ -157,6 +157,7 @@ persist.vendor.ims.disableQXDMLogs=1
 
 # Recovery
 persist.vendor.recovery_update=false
+persist.sys.binary_xml=false
 
 # Smoothens UI
 persist.service.lgospd.enable=0
