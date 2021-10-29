@@ -136,7 +136,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.btconfigstore@1.0.vendor:64 \
     vendor.qti.hardware.btconfigstore@2.0.vendor:64 \
-    libbt-vendor
+    libbt-vendor \
+    libldacBT_bco
+
 
 # Camera
 PRODUCT_PACKAGES += \
