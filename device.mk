@@ -394,7 +394,7 @@ PRODUCT_PACKAGES += \
 
 # Shims
 PRODUCT_PACKAGES += \
-    lib-imsvt
+    libgui-shim
 
 # Radio
 PRODUCT_PACKAGES += \
