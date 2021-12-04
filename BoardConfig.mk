@@ -171,6 +171,9 @@ TARGET_RECOVERY_DEVICE_MODULES := libinit_mido
 # Media
 TARGET_USES_MEDIA_EXTENSIONS := true
 
+# LMKD
+TARGET_LMKD_STATS_LOG := true
+
 # Memory Config
 MALLOC_SVELTE := true
 
