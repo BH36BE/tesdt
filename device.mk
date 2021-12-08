@@ -293,7 +293,7 @@ PRODUCT_PACKAGES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power@1.3-service.pixel-libperfmgr
+    android.hardware.power@1.3-service.mido-libperfmgr
 
 # QMI
 PRODUCT_PACKAGES += \
