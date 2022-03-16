@@ -369,3 +369,7 @@ service vendor.power_off_alarm /vendor/bin/power_off_alarm
 on property:dev.bootcomplete=1
     setprop sys.io.scheduler "bfq"
     restart ril-daemon
+
+on property:vendor.post_boot.parsed=1
+    # Enable PowerHAL hint processing
+    setprop vendor.powerhal.init 1
