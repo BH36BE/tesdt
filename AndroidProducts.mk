@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/nad_mido.mk
+    $(LOCAL_DIR)/aosqp_mido.mk
 
 COMMON_LUNCH_CHOICES := \
-    nad_mido-user \
-    nad_mido-userdebug \
-    nad_mido-eng
+    aosqp_mido-user \
+    aosqp_mido-userdebug \
+    aosqp_mido-eng
