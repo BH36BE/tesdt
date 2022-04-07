@@ -33,8 +33,8 @@ function 8953_sched_dcvs_eas()
     echo 1 > /sys/devices/system/cpu/cpu0/online
     echo "schedutil" > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
     # Consider changing frequencies once per scheduling period
-    echo    4000 > /sys/devices/system/cpu/cpufreq/schedutil/up_rate_limit_us
-    echo   16000 > /sys/devices/system/cpu/cpufreq/schedutil/down_rate_limit_us}
+    echo 500 > /sys/devices/system/cpu/cpufreq/policy0/schedutil/up_rate_limit_us
+    echo 20000 > /sys/devices/system/cpu/cpufreq/policy0/schedutil/down_rate_limit_us
 
 function 8917_sched_dcvs_eas()
 {
