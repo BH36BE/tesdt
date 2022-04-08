@@ -210,6 +210,7 @@ wifi.interface=wlan0
 PRODUCT_PROPERTY_OVERRIDES += \
 persist.sys.wfd.virtual=0
 
+<<<<<<< HEAD
 # Dirac algo tsx 9/12
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.dirac.acs.controller=qem \
@@ -232,3 +233,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.dha_th_rate=2.3 \
     ro.config.sdha_apps_bg_max=64 \
     ro.config.sdha_apps_bg_min=8
+
+# ZRAM
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.zram.mark_idle_delay_mins=60 \
+ro.zram.first_wb_delay_mins=1440 \
+ro.zram.periodic_wb_delay_hours=24
