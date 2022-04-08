@@ -1160,11 +1160,12 @@ vendor/lib64/libsensor_reg.so|77023e0e2f5e16a21224caebecae8dab84a9b10e
 vendor/lib64/libsensor_user_cal.so|619ffc8e2fb28f359876cdd642d57d561d98c0f2
 vendor/lib64/sensors.ssc.so|3780d51a1c58845510d41c8266a3793cc62b50d9
 
-# Thermal - from Olive PKQ1.190319.001 V10.3.5.0.PCNCNXM
-vendor/bin/thermal-engine|7b59145e9e75cdc8b491f2ed7a04c0880899fc74
--vendor/lib/libthermalclient.so|2c91276835c185e47a66916d24b3adc98b17e6eb
--vendor/lib64/libthermalclient.so|faf92c38d52487cb8fa350f1ec786af17ac716cb
-vendor/lib64/libthermalfeature.so|8306e4bc55a4b9c7cb52a19fed11a9f48a604444
+# Thermal - from ginkgo MIUI 21.4.14 China
+vendor/bin/thermal-engine|6cd660e2b813896670a14be244d1046afe90064e
+vendor/lib/libthermalclient.so|0aab8039958acdd27af71c5c6923dcd7208f886f
+vendor/lib/libthermalfeature.so|52c35a4e2bc048839e4f9172cc2d299e2367a1fd
+vendor/lib64/libthermalclient.so|ed01fa6caeb9dfbddc0fafc197abe13f3c8b56f9
+vendor/lib64/libthermalfeature.so|f2b78560b6b87c19336ae48ea26d3af756123047
 
 # Time services - from LA.UM.8.6.2.r1-08100-89xx.0
 -vendor/app/TimeService/TimeService.apk;:timeservice_app_cert-legacy-um|c935b678fdaed033513f044f6492361c3370f9f0
