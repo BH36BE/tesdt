@@ -10,3 +10,4 @@ persist.audio.dirac.       u:object_r:dirac_prop:s0
 vendor.powerhal.audio      u:object_r:power_prop:s0
 vendor.powerhal.init       u:object_r:power_prop:s0
 vendor.powerhal.rendering      u:object_r:power_prop:s0
+wifi.active.               u:object_r:wifi_hal_prop:s0
