@@ -136,7 +136,8 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.camera.device@1.0 \
     camera.msm8953 \
     libmm-qcamera \
-    libui_shim
+    libui_shim \
+    Snap
 
 # Consumerir
 PRODUCT_PACKAGES += \
@@ -399,10 +400,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_BOOT_JARS += \
     WfdCommon
-
-# GCam Go
-PRODUCT_PACKAGES += \
-    GCam
 
 # XiaomiParts
 PRODUCT_PACKAGES += \
