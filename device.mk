@@ -288,7 +288,14 @@ PRODUCT_PACKAGES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power@1.2-service-qti
+    android.hardware.power@1.0-service \
+    android.hardware.power@1.0-impl \
+    power.qcom
+
+# Perf
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.perf@1.0.vendor \
+    vendor.qti.hardware.perf@2.0.vendor
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml \
